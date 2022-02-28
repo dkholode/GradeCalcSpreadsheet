@@ -1,10 +1,12 @@
 # GradeCalcSpreadsheet
 Create a Spreadsheet where you can calculate your grade
 
-### Inputs:
+### How it works (Inputs):
+Run the program and answer the following questions:
   1. Total number of categories (HW, Exams, Participation, etc)
   2. For each category:
       1. Assignment name structure (`HW_#`, `Midterm #`, etc)
       2. Total number of assignments?
       3. How much is each assignment worth?
-  
+      
+Answering all the questions generates a spreadsheet where you can enter your current grade for each assignment to find your total grade.
