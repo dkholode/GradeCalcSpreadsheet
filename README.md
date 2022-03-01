@@ -12,7 +12,7 @@ Run the program and answer the following questions:
       
 Answering all the questions generates a spreadsheet where you can enter your current grade for each assignment to find your total grade.
 
-# Future Plans
+### Future Plans
 - [ ] Add Category Breakdown
 - [ ] Add option for different weighting systems (Point vs %)
 
