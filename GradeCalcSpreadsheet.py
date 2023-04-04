@@ -8,7 +8,7 @@ def getInt(prompt):
             print('Invalid input! Enter an Integer!')
         
 def section(CatCount):
-    print('You have', CatCount, 'categories. We will now customize each one!')
+    print('You have', CatCount, 'categories. Let us customize each one!')
     Amt = []
     Names = []
     Points = []
@@ -16,7 +16,7 @@ def section(CatCount):
         print('\n')
         Names.append(input("What is the naming scheme for these assignments? (Ex: HW #, Exam #, etc) "))
         Amt.append(getInt("How many of this assignment type are there? "))
-        Points.append(input("How much does each assignment worth? (As a total of %) "))
+        Points.append(input("How much is each assignment worth? (As a total of %) "))
     return Amt, Names, Points
 
 def assemble(CatCount, Amt, Names, Points):
@@ -43,7 +43,7 @@ def assemble(CatCount, Amt, Names, Points):
             row+=1
 
 if __name__ == "__main__":
-    Course = input("What course is this for?")
+    Course = input("What course is this for? ")
     workbook = x.Workbook(Course+'.xlsx')
     worksheet = workbook.add_worksheet()
     CatCount = getInt("How many categories does your class have? (HW, Exams, Quizzes, etc)? ")
